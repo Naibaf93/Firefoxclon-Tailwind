@@ -1,0 +1,23 @@
+{
+  "name": "firefox-tailwind",
+  "version": "1.0.0",
+  "description": "Proyecto de udemy creando una landing de firefox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naibaf93/Firefoxclon-Tailwind.git"
+  },
+  "author": "Fabian Huertas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naibaf93/Firefoxclon-Tailwind/issues"
+  },
+  "homepage": "https://github.com/Naibaf93/Firefoxclon-Tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  }
+}
